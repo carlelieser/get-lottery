@@ -1,0 +1,14 @@
+{
+  "name": "get-lottery",
+  "version": "2.1.3",
+  "description": "Generate lottery numbers based on probability.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Carlos E. Santos <carloseliesersantos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
