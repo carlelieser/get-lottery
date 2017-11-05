@@ -26,7 +26,7 @@ getLottery.setKey('bjp8KrRvAPtuf809u1UXnI0Z8');
 Get all Powerball data since 2010, including date, multiplier, and of course, winning numbers.
 ```javascript
 getLottery.getAll().then(result => {
-	//returns array of objects
+    //returns array of objects
 });
 ```
 ### getWinningNumbers
@@ -39,7 +39,7 @@ getLottery.getWinningNumbers().then(result => {
     
 //get winning numbers, counted
 getLottery.getWinningNumbers(true).then(result => {
-	//returns array of objects
+    //returns array of objects
     //id = number;
     //count = how many times the number appears in the data
 });
@@ -48,7 +48,7 @@ getLottery.getWinningNumbers(true).then(result => {
 Based on probability, return an array of numbers consituting future lottery numbers.
 ```javascript
 getLottery.generateNumbers().then(result => {
-	//returns array of numbers
+    //returns array of numbers
 });
 ```
 
