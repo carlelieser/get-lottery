@@ -5,6 +5,8 @@ A Powerball Lottery api wrapper with added functionality.
 
 	$ npm install get-lottery
 ## Usage
+Get an api key at https://dev.socrata.com/foundry/data.ny.gov/8vkr-v8vh.
+
 ```javascript
 let getLottery = require('get-lottery');
     
