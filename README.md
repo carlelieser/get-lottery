@@ -47,7 +47,7 @@ getLottery.getWinningNumbers(true).then(result => {
 });
 ```
 ### generateNumbers
-Based on probability, return an array of numbers consituting future lottery numbers.
+Based on probability, return an array of numbers containing future lottery numbers.
 ```javascript
 getLottery.generateNumbers().then(result => {
     //returns array of numbers
